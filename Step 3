@@ -1,0 +1,8 @@
+function hasPassingGrade(score) {
+  return score >= 60;
+}
+
+console.log(hasPassingGrade(85)); 
+console.log(hasPassingGrade(61));  
+console.log(hasPassingGrade(59));  
+console.log(hasPassingGrade(100)); 
