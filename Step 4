@@ -1,0 +1,13 @@
+function studentMsg(totalScores, studentScore) {
+  var average = getAverage(totalScores);
+  var grade = getGrade(studentScore);
+
+  var message = "Class average: " + average + ". Your grade: " + grade + ". ";
+  if (grade === 'F') {
+    message += "You failed the course.";
+  } else {
+    message += "You passed the course.";
+  }
+
+  return message;
+}
